@@ -1,0 +1,48 @@
+
+
+.text-center{
+    text-align: center;
+}
+
+#container{
+    border: 1px solid black;
+    width:fit-content;
+    text-align: center;
+    
+    margin: auto;
+    
+    
+    padding: 10px;
+    background-color: aqua;
+}
+
+#display{
+    height: 30px;
+    width: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 4px 3px rgb(134, 134, 128);
+    margin-bottom: 10px;
+    text-align: right;
+    overflow: scroll;
+    
+}
+
+button{
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 3px rgb(134, 134, 128) ;
+}
+.operator{
+    background-color: rgb(253, 152, 21);
+}
+
+.clear-button{
+    background-color: blue;
+    color: white;
+}
